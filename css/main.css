@@ -1,0 +1,114 @@
+html {
+  font-size: 14px; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  background-color: #eeeeee;
+  margin: 0;
+  padding-top: 1em;
+  overflow-x: hidden; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #26c050; }
+
+.btn {
+  padding: 20px 30px;
+  display: inline-block;
+  color: #fff;
+  background-color: #26c050;
+  border-radius: 4px; }
+  .btn-primary:hover {
+    background-color: #2bd559; }
+
+.logo img {
+  max-height: 80px;
+  padding-left: 1em; }
+
+.top-nav {
+  background-color: #fff; }
+  .top-nav_menu {
+    display: flex; }
+    .top-nav_menu li {
+      margin-right: 1em; }
+      .top-nav_menu li a {
+        font-weight: 700;
+        color: #000; }
+      .top-nav_menu li::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #26c050;
+        transform: translateY(25px) scale(0);
+        transition: all 0.3s; }
+      .top-nav_menu li:hover {
+        text-decoration: none; }
+        .top-nav_menu li:hover a {
+          color: #737373; }
+        .top-nav_menu li:hover::after {
+          transform: translateY(25px) scale(1); }
+
+.left-sidebar {
+  margin-top: 1em; }
+  .left-sidebar_menu {
+    background-color: #fff;
+    padding: 0; }
+    .left-sidebar_menu li:first-child a {
+      padding-top: 1.5em; }
+    .left-sidebar_menu li:last-child a {
+      padding-bottom: 1.5em; }
+    .left-sidebar_menu li:hover {
+      background-color: #26c050; }
+      .left-sidebar_menu li:hover a {
+        color: #fff; }
+    .left-sidebar_menu li a {
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;
+      padding: 15px 25px; }
+  .left-sidebar_object {
+    background-color: #fff;
+    margin-top: 1.3em; }
+    .left-sidebar_object-description {
+      padding: 1em; }
+      .left-sidebar_object-description h3 {
+        font-weight: 400;
+        text-transform: uppercase; }
+      .left-sidebar_object-description .price {
+        font-size: 18px;
+        color: #f20000;
+        padding-bottom: 1em; }
+    .left-sidebar_object img {
+      width: 100%; }
+
+.content {
+  margin-bottom: 2em; }
+
+.directions {
+  margin-top: 2em;
+  text-align: center; }
+  .directions-blocks {
+    display: flex; }
+  .directions-block {
+    background-color: #fff;
+    margin: 0.6em;
+    height: 220px;
+    width: 33%;
+    padding: 10px;
+    border-radius: 4px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 80%;
+    -moz-background-size: 80%;
+    background-size: 80%; }
+  .directions h3 {
+    color: #26c050; }
+
+/*# sourceMappingURL=main.css.map */
