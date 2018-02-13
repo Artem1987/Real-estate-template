@@ -1,4 +1,5 @@
 @import "colors"
+@import "media"
 
 html
 	font-size: 14px
@@ -68,7 +69,7 @@ a
 				a
 					color: $white
 			a
-				display: block
+				display: block 
 				font-size: 16px
 				font-weight: 400
 				color: $black
@@ -109,7 +110,24 @@ a
 		
 	h3
 		color: $active-clr
-footer
+.footer
 	background-color: $dark
-	
+	padding: 2em 0
+	color: $white
+	a
+		color: $white
+		&:hover
+			color: $active-clr
+	&_menu
+		line-height: 2em
+	&-policy-link
+		font-size: 12px
+	&-contacts
+		text-align: right
+		&_phone
+			font-weight: 700
+			font-size: 16px
+			color: $active-clr
+	&-social-links
+		@extend .footer-contacts
 		
